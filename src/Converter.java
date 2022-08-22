@@ -1,6 +1,6 @@
 public class Converter {
-    private static final double STEP_LENGTH = 0.00075;
-    private static final double STEP_CAL = 0.05;
+    private final double STEP_LENGTH = 0.00075;
+    private final double STEP_CAL = 0.05;
 
 
     public double stepsToDistance(int totalSteps){
